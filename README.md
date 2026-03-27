@@ -16,29 +16,37 @@ An AI-powered web application that translates text between **Arabic and English*
 
 ---
 ## 📁 Project Structure
-project/
-│── app.py # Streamlit UI
-│── translator.py # Translation logic
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
+project:
+
+│── app.py    # Streamlit UI  
+│── translator.py   # Translation logic  
+│── requirements.txt   # Dependencies  
+│── README.md        # Project documentation  
 
 ---
 ## Create Virtual Environments
+
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
+
+source venv/bin/activate # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
-----
+---
 ## Install dependencies
 pip install -r requirements.txt
 
 ---
-## Run the App
-streamlit run app.py
 
+## Run the App
+ streamlit run app.py
+ 
 ---
+
 ## 🤖 Models Used
-Arabic → English
-Helsinki-NLP/opus-mt-ar-en
-English → Arabic
-Helsinki-NLP/opus-mt-en-ar
+
+- Arabic → English  
+  Helsinki-NLP/opus-mt-ar-en  
+
+- English → Arabic  
+  Helsinki-NLP/opus-mt-en-ar  
