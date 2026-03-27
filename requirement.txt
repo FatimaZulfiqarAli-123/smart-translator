@@ -1,0 +1,17 @@
+streamlit
+transformers
+torch
+sentencepiece
+sacremoses
+
+Why these are needed ?
+🖥️ Streamlit
+Runs your web app UI
+🤖 transformers
+Loads Hugging Face translation models
+⚡ torch
+Required backend for model inference
+🧩 sentencepiece
+Tokenizer dependency (very important for MarianMT models)
+🔤 sacremoses
+Helps with text preprocessing for translation models
